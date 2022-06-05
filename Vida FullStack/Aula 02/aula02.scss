@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+p {
+    span {
+        background-color: red;
+    }
+
+    b {
+        background-color: black;
+    }
+}
+
+body {
+    color: blue;
+}
+
+/*
+
+    No arquivo SASS será escrito somente CSS.
+
+    Para compilá-lo, basta ir até o Terminal e digitar: sass nome do arquivo scss:nome do arquivo css.
+
+    O comando "sass --watch" (sem aspas) irá monitorar o nosso arquivo SCSS e aplicar todas as mudanças, lá feitas, ao arquivo CSS.
+
+*/
