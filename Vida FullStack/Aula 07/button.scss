@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import './variáveis.scss';
+
+@mixin button_style($background, $color) {
+    background-color: $background;
+    color: $color;
+}
+
+//O "@mixin" deve, obrigatoriamente, vir antes dos seletores que irão usá-lo.
+
+.botão {
+    width: 200px;
+    padding: 10px 0;
+    background-color: none;
+    border: 0;
+    border-radius: 10px;
+    display: block;
+    margin: 10px 0;
+
+    &.botão_laranja {
+        @include button_style($cor_laranja, white);
+    }
+    
+    &.botão_roxo {
+        @include button_style($cor_roxa, white);
+    }
+    
+    &.botão_amarelo {
+        @include button_style($cor_amarela, black);
+    }
+}
