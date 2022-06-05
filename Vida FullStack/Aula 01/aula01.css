@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+
+    O que é o SASS?
+
+    Resposta: SASS é um pré-processador de CSS.
+    
+    Resumindo, pré-processadores, como o próprio nome se faz entender, é um programa que tem uma entrada, um processamento e uma saída.
+
+    Como ele (SASS) funciona?
+
+    Resposta: no CSS, devemos tomar cuidado para não escrever um "código sujo".
+
+    No SASS, ainda escrevemos CSS, porém de uma forma elegante e ainda mais reutilizável.
+    Criando variáveis, funções, entre muitas outras funcionalidades, assim deixando o nosso código CSS mais organizado.
+    (Menos código e mais agilidade!)
+
+    Como ele (SASS) funciona?
+
+    Resposta: para criar um arquivo SASS é muito simples.
+
+    Arquivos CSS tem como extensão ".css"; arquivos SASS tem como extensão ".scss".
+
+    Entretanto, a inserção do arquivo SASS não se dá da mesma maneira que o (arquivo) CSS.
+    Devemos fazer algumas coisinhas para ele funcionar.
+
+*/
