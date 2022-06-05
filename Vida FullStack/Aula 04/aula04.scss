@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.botão {
+    width: 200px;
+    padding: 10px 0;
+    background-color: none;
+    border: 0;
+    border-radius: 10px;
+
+    //A seguir, veremos as duas maneiras de se usar herança / extend no SASS.
+
+    &.botão_laranja {
+        //O "&" é necessário para que a class "botão_laranja" herde a classe "botão".
+
+        background-color: orange;
+    }
+
+    &:hover {
+        color: white;
+        cursor: pointer;
+    }
+}
+
+//Segunda maneira de utilizar herença / extend:
+
+.botão_laranja2 {
+    @extend .botão;
+    color: steelblue;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}

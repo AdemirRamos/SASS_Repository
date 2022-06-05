@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.botão, .botão_laranja2 {
+  width: 200px;
+  padding: 10px 0;
+  background-color: none;
+  border: 0;
+  border-radius: 10px;
+}
+.botão.botão_laranja, .botão_laranja.botão_laranja2 {
+  background-color: orange;
+}
+.botão:hover, .botão_laranja2:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.botão_laranja2 {
+  color: steelblue;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px black;
+}
+
+/*# sourceMappingURL=aula04.css.map */
