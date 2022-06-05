@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.botão {
+  width: 200px;
+  padding: 10px 0;
+  background-color: none;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+  margin: 10px 0;
+}
+.botão.botão_laranja {
+  background-color: orange;
+  color: white;
+}
+.botão.botão_laranja:hover {
+  background: #805380;
+}
+.botão.botão_roxo {
+  background-color: purple;
+  color: white;
+}
+.botão.botão_roxo:hover {
+  background: #4000c0;
+}
+.botão.botão_amarelo {
+  background-color: yellow;
+  color: black;
+}
+.botão.botão_amarelo:hover {
+  background: gray;
+}
+
+/*# sourceMappingURL=aula08.css.map */
