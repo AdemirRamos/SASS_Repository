@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.botão, .botão_laranja {
+  width: 200px;
+  padding: 10px 0;
+  background-color: none;
+  border: 0;
+  border-radius: 10px;
+}
+
+.botão_laranja {
+  background-color: orange;
+}
+
+p {
+  color: orange;
+}
+
+/*# sourceMappingURL=aula05.css.map */

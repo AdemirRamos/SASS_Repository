@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import './variáveis.scss';
+
+.botão {
+    width: 200px;
+    padding: 10px 0;
+    background-color: none;
+    border: 0;
+    border-radius: 10px;
+}
+
+.botão_laranja {
+    @extend .botão;
+    background-color: $cor_laranja;
+}

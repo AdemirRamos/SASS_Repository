@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@import './button.scss';
+@import './variáveis.scss';
+
+//Caso não se deseje vários arquivos SCSS e CSS Map, basta usar o comando "sass --watch" no arquivo CSS principal e passar as demais configurações via "@import", como acima.
+
+p {
+    color: $cor_laranja;
+}
