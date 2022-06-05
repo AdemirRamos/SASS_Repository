@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*O arquivo ".css.map" contem informações sobre a versão do SASS em uso, entre outras coisas; esse arquivo é uma espécie de arquivo de configuração.*/
+p span {
+  background-color: red;
+}
+p b {
+  background-color: black;
+}
+p:hover {
+  color: coral;
+}
+
+div:hover {
+  color: burlywood;
+}
+
+/*# sourceMappingURL=aula03.css.map */

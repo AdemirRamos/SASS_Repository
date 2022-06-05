@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*O arquivo ".css.map" contem informações sobre a versão do SASS em uso, entre outras coisas; esse arquivo é uma espécie de arquivo de configuração.*/
+
+//P. S.: Caso se deseje passar, automaticamente, o "@charset "UTF-8";" para o arquivo CSS, o comentério acima deve ir entre "/**/".
+
+//Conceito abordado nesta aula: "nesting" (aninhamento).
+
+//Existem duas maneiras de se trabalhar com "hover": dentro (usando "&") e fora do seletor (neste caso, o seletor será P):
+
+p {
+    span {
+        background-color: red;
+    }
+
+    b {
+        background-color: black;
+    }
+
+    &:hover {
+        color: coral;
+    }
+}
+
+div:hover {
+    color: burlywood;
+}
+
+//O comando "sass --watch ." (sem aspas) monitora e compila todos os arquivos presentes na pasta na qual ele é executado.
+
+//P. S.: O comando acima cria o arquivo CSS (a partir do arquivo SCSS) automaticamente.
+
+//Comentários feitos com "//" não serão transpassados para o arquivo CSS - somente comentários feitos com "/**/".
