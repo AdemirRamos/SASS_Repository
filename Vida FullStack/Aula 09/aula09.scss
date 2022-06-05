@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import './button.scss';
+@import './variáveis.scss';
+
+/*
+
+"Minify": faz com que todo o nosso código, espelhado em diversas linhas, ocupe apenas um única linha, assim gerando otimização e velocidade ao nosso código.
+
+O comando (sem aspas) "--style compressed" comprime o nosso código, assim fazendo com que ele ocupe apenas uma única linha.
+
+A vantagem de fazer isso consiste na otimização do site. Quando comprimido, o arquivo tem uma melhor otimização - o que facilita o seu carregamento.
+
+*/
