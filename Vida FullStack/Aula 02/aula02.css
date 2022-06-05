@@ -18,6 +18,18 @@ body {
 
     O comando "sass --watch" (sem aspas) irá monitorar o nosso arquivo SCSS e aplicar todas as mudanças, lá feitas, ao arquivo CSS.
 
+    Dicas de comandos para o Terminal:
+
+    O comando "ls" (sem aspas) nos mostra todas as pastas para as quais podemos navegar.
+
+    P. S.: Os nomes devem ser digitados exatamente como são mostrados.
+
+    O comando "cd" (sem aspas) é necessário para navegar para um pasta. Exemplo (desconsiderar as aspas duplas): "cd 'Nome da Pasta'/".
+
+    O comando "clear" (sem aspas) limpa o Terminal.
+
+    O comando "control + J" abre uma nova instância do Terminal.
+
 */
 
 /*# sourceMappingURL=aula02.css.map */
