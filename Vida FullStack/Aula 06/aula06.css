@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.botão_laranja {
+  width: 200px;
+  padding: 10px 0;
+  background-color: none;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+  margin: 10px 0;
+  background-color: orange;
+  color: white;
+}
+
+.botão_roxo {
+  width: 200px;
+  padding: 10px 0;
+  background-color: none;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+  margin: 10px 0;
+  background-color: purple;
+  color: white;
+}
+
+.botão_amarelo {
+  width: 200px;
+  padding: 10px 0;
+  background-color: none;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+  margin: 10px 0;
+  background-color: yellow;
+  color: black;
+}
+
+/*# sourceMappingURL=aula06.css.map */
