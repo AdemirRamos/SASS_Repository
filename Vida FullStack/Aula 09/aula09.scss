@@ -6,8 +6,10 @@
 
 "Minify": faz com que todo o nosso código, espalhado em diversas linhas, ocupe apenas um única linha, assim gerando otimização e velocidade ao nosso código.
 
-O comando (sem aspas) "--style compressed" comprime o nosso código, assim fazendo com que ele ocupe apenas uma única linha.
+O comando (sem aspas) "--style compressed arquivo de 'input' arquivo de 'output'" comprime o nosso código, assim fazendo com que ele ocupe apenas uma única linha.
 
 A vantagem de fazer isso consiste na otimização do site. Quando comprimido, o arquivo tem uma melhor otimização - o que facilita o seu carregamento.
+
+Monitorar e minificar com um só comando: "sass input.scss:output.css --watch --style compressed"
 
 */
